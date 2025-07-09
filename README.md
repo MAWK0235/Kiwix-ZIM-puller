@@ -2,7 +2,7 @@
 
 This repository provides two Python scripts to **download** and **verify** `.zim` files from a web page (specifically tested with [Kiwix's preppers library](https://premium-preppers.demo.hotspot.kiwix.org/download/)).
 
-- `verify_and_redownload.py`: Verifies existing files and redownloads missing or incomplete `.zim` files.
+- `DownloadZims.py`: Verifies existing files and redownloads missing or incomplete `.zim` files.
 - `download_zim_files.py`: Downloads all `.zim` files that are not already present.
 
 ## ✅ Features
