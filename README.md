@@ -8,7 +8,7 @@ This repository provides two Python scripts to **download** and **verify** `.zim
 ## ✅ Features
 
 - Automatically fetches `.zim` file links from a webpage.
-- Skips URLs containing `survivorlibrary`.
+- Modify the URL in each script to a different ZIM repo to change ZIM's being downloaded. such as https://compsci.demo.hotspot.kiwix.org/download/
 - Verifies file size before skipping or redownloading.
 - Cleans up filenames by removing the `openZIM_` prefix.
 - Shows real-time download progress.
