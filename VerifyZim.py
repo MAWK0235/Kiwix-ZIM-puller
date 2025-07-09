@@ -33,10 +33,6 @@ def get_remote_file_size(url):
 def download_file(url, output_path):
     """Download a file from a URL to a specific path."""
     try:
-        if "survivorlibrary" in url:
-            print(f"⏭️  Skipping {url} (contains 'survivorlibrary')")
-            return
-
         with requests.get(url, stream=True) as r:
             r.raise_for_status()
             total_size = int(r.headers.get('Content-Length', 0))
